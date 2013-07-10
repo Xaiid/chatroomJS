@@ -1,0 +1,71 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('images/background.png');
+  background-color:black;
+}
+a{
+color: #00B7FF;
+}
+#content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#room {
+  background-color: #DDD;
+  border-radius: 3px;
+  height: 21px;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+#messages {
+  border-radius: 3px;
+  width: 690px;
+  height: 300px;
+  overflow: auto;
+  background-color: #eee;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+#room-list {
+  color:white;
+  float: right;
+  width: 100px;
+  height: 300px;
+  overflow: auto;
+}
+#room-list div {
+  border-bottom: 1px solid #eee;
+}
+#room-list div:hover {
+  background-color: #ddd;
+}
+#send-message {
+  border-radius: 3px;
+  width: 684px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+#help {
+  color:white;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#send-button{
+  padding: 5px;
+  background: #FFF;
+  width: 61px;
+  height: 26px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 2px 2px #303030;
+}
+#send-button:hover {
+color: #FFF;
+background-color: #2E2E26;
+text-decoration: none;
+background-position: 0 -15px;
+-webkit-transition: background-position .1s linear;
+transition: background-position .1s linear;
+}
